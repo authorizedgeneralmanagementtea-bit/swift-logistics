@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Swift Logistics</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Swift Logistics</title>
 
-<link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -14,66 +14,68 @@
     <h1>Swift Logistics</h1>
 
     <nav>
-        <a href="#home">Home</a>
-        <a href="#quote">Quote Request</a>
-        <a href="#tracking">Track Shipment</a>
-        <a href="#contact">Contact</a>
+        <a href="#">Home</a>
+        <a href="#">Services</a>
+        <a href="#">Track Shipment</a>
+        <a href="#">Request Quote</a>
+        <a href="#">Contact</a>
     </nav>
 </header>
 
-<section id="home" class="hero">
+<section class="hero">
     <h2>Fast & Reliable Logistics Solutions</h2>
-    <p>Delivering packages safely and on time.</p>
+
+    <p>
+        Delivering packages safely and on time.
+    </p>
+
+    <button class="btn">
+        Request Quote
+    </button>
 </section>
 
-<section id="quote" class="quote-section">
+<section class="services">
+    <h2>Our Services</h2>
 
-    <h2>Request a Quote</h2>
+    <div class="service-box">
+        🚛 Road Freight Transportation
+    </div>
 
-    <form>
+    <div class="service-box">
+        ✈️ Air Freight Delivery
+    </div>
 
-        <input type="text" placeholder="Full Name" required>
+    <div class="service-box">
+        🚢 Sea Freight Shipping
+    </div>
 
-        <input type="email" placeholder="Email Address" required>
-
-        <input type="tel" placeholder="Phone Number">
-
-        <input type="text" placeholder="Pickup Location">
-
-        <input type="text" placeholder="Delivery Location">
-
-        <textarea placeholder="Cargo Details"></textarea>
-
-        <button type="submit">Request Quote</button>
-
-    </form>
-
+    <div class="service-box">
+        🏭 Warehousing & Storage
+    </div>
 </section>
 
-<section id="tracking" class="tracking">
-
+<section class="services">
     <h2>Track Shipment</h2>
 
     <input
         type="text"
         placeholder="Enter Tracking Number">
 
-    <button>Track Package</button>
-
+    <button class="btn">
+        Track Package
+    </button>
 </section>
 
-<section id="contact" class="contact">
-
+<section class="contact">
     <h2>Contact Us</h2>
 
     <p>Email: support@swiftlogistics.com</p>
 
     <p>Phone: +234 XXX XXX XXXX</p>
-
 </section>
 
 <footer>
-    <p>&copy; 2026 Swift Logistics</p>
+    <p>© 2026 Swift Logistics</p>
 </footer>
 
 <script src="script.js"></script>
